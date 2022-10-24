@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 h1 ~ div{
     color: red;
   }
@@ -14,3 +13,35 @@ h1 ~ div{
     height: 500px;
     background: center/ cover no-repeat url(../image/sample_key.jpg);
   }
+
+
+  .center {
+    text-align: center;
+    
+    line-height: 1.7;
+  }
+  .left {
+    text-align: left;
+  }
+  .right {
+    text-align: right;
+  }
+  p .center{
+    line-height: 1.7;
+  }
+header{
+  font-family: 'Noto Serif JP', serif;
+}
+.title{
+font-size: 40px;
+}
+.section_title{
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+}
+.section_subtitle{
+  margin-bottom: 50px;
+  text-align: center;
+
+}
