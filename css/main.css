@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+h1 ~ div{
+    color: red;
+  }
+
+  .section_inner{
+    padding: 50px 10% 30px;
+  }
+  
+  
+
+  .key {
+    height: 500px;
+    background: center/ cover no-repeat url(../image/sample_key.jpg);
+  }
