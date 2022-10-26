@@ -7,7 +7,13 @@ h1 ~ div{
     padding: 50px 10% 30px;
   }
   
+.grad{
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
   
+  background: center/ content no-repeat url(../image/sample_key.jpg);
+position: fixed;
+
+}  
 
   .key {
     height: 500px;
@@ -64,4 +70,45 @@ font-size: 40px;
 .coffee_menu_image{
   width: 20%;
   border-radius: 50%;
+}
+
+.header_nav{
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  width: 100%;
+}
+  
+.global_nav_item{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.global_nav_item:hover{
+  color: #42210b;
+  background: #fff;
+}
+
+.global_nav{
+  display: flex;
+  align-items: stretch;
+}
+.logo{
+  display: flex;
+  width: 120px;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+footer{
+  display: flex;
+  align-items: stretch;
+  background:  rgba(0,0,0,.6);
 }
