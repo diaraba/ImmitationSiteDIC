@@ -21,6 +21,7 @@ position: fixed;
     font-family: 'Noto Serif JP', serif;
     font-weight: bold;
   }
+  .post{}
   .key h1{
     font-size: 2.5rem;
   }
@@ -42,6 +43,7 @@ position: fixed;
   } */
 header{
   font-family: 'Noto Serif JP', serif;
+ 
 }
 .title{
 font-size: 40px;
@@ -49,7 +51,7 @@ font-size: 40px;
 .menu_title{
   display: inline-block;
   font-family: 'Noto Serif JP', serif;
-  text-align: center;
+  font-size: 1.5rem;
   color: #42210b;
   border-bottom: solid #42210b 1px;
   margin-bottom: 20px;
