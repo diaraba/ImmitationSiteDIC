@@ -1,4 +1,7 @@
 @charset "utf-8";
+html {
+  height: 100%;
+}
 h1 ~ div{
     color: red;
   }
@@ -19,7 +22,7 @@ position: fixed;
     height: 500px;
     background: center/ cover no-repeat url(../image/sample_key.jpg);
     font-family: 'Noto Serif JP', serif;
-    font-weight: bold;
+/*  font-weight: bold;*/
   }
   .post{
     display: flex;
@@ -31,7 +34,7 @@ position: fixed;
   .post p{
     display: flex;
     position: absolute;
-    bottom: 43%;
+    bottom: 88%;
   }
   .key h1{
     font-size: 2.5rem;
@@ -52,6 +55,11 @@ position: fixed;
   p .center{
     line-height: 1.7;
   } */
+  body {
+    position: relative;
+    padding-bottom: 75px;
+    min-height: 100%;
+  }
 header{
   font-family: 'Noto Serif JP', serif;
  
@@ -64,12 +72,12 @@ font-size: 40px;
   font-family: 'Noto Serif JP', serif;
   font-size: 1.5rem;
   color: #42210b;
+  border-bottom: solid #42210b 1px;
   margin-bottom: 20px;
 }
 
 .section_title {
   font-family: 'Noto Serif JP', serif;
-  font-weight: bold;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -86,14 +94,19 @@ font-size: 40px;
   justify-content: space-between;
   align-items: stretch;
   position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 2;
 }
   
 .global_nav_item{
   color: white;
+  font-weight: 50;
   text-decoration: none;
   list-style: none;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 0 20px;
 }
 
@@ -114,11 +127,7 @@ font-size: 40px;
 .logo img{
   width: 100%;
 }
-footer{
-  display: flex;
-  align-items: stretch;
-  background:  rgba(0,0,0,.6);
-}
+
 
 .section_concept{
   display: flex;
@@ -139,6 +148,7 @@ footer{
 .section_menu_{
   background: url("../image/sample_menu_bg.jpg") no-repeat bottom;
   background-attachment: fixed;
+  
 }
 .section_menu{
   display: flex;
@@ -216,6 +226,7 @@ footer{
   width: 45%;
   padding: 10px;
   display: flex;
+  text-decoration: none;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -235,13 +246,32 @@ footer{
 .frame{
   position: relative;
   width: 100%;
+  padding-top: 57%;
 }
 
-iframe {
-  width:100%;
-} 
+.frame2 { 
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+  /* 
+.frame {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
 
-;
+.frame_child{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+} */
+
 .footer{
   width: 100%;
   background: #251e19;
@@ -276,4 +306,10 @@ iframe {
   color: white;
   text-align: center;
   font-size: 10px;
+}
+
+li.section_menu_carte11 {
+  position: relative;
+  left: -12%;
+  padding-bottom: 0%;
 }
